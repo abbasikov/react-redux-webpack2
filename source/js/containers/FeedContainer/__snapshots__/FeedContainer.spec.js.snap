@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedContainer #renders with initial state, when feeds are empty 1`] = `
+<div
+  class="content-wrapper"
+>
+  <div
+    class="panel panel-flat "
+  >
+    <div
+      class="panel-body panel-post"
+    >
+      <button
+        class="btn bg-orange-600 btn-xs"
+        type="button"
+      >
+        <i
+          class="glyphicon glyphicon-plus position-left"
+        />
+        <span>
+          POST
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    class="l1-core-rail"
+  >
+    <div
+      class="panel post-feed delay260"
+    >
+      <div
+        class="circle"
+      />
+      <div
+        class="line-wrapper"
+      >
+        <div
+          class="line width110"
+        />
+        <div
+          class="line width250"
+        />
+      </div>
+      <div
+        class="height20"
+      />
+      <div
+        class="line width500"
+      />
+      <div
+        class="line width470"
+      />
+    </div>
+    <div
+      class="panel post-feed delay320"
+    >
+      <div
+        class="circle"
+      />
+      <div
+        class="line-wrapper"
+      >
+        <div
+          class="line width110"
+        />
+        <div
+          class="line width250"
+        />
+      </div>
+      <div
+        class="height20"
+      />
+      <div
+        class="line width500"
+      />
+      <div
+        class="line width470"
+      />
+    </div>
+    <div
+      class="panel post-feed delay380"
+    >
+      <div
+        class="circle"
+      />
+      <div
+        class="line-wrapper"
+      >
+        <div
+          class="line width110"
+        />
+        <div
+          class="line width250"
+        />
+      </div>
+      <div
+        class="height20"
+      />
+      <div
+        class="line width500"
+      />
+      <div
+        class="line width470"
+      />
+    </div>
+  </div>
+</div>
+`;

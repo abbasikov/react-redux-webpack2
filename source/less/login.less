@@ -1,0 +1,63 @@
+@import './icons/icomoon/styles.css';
+/////////bootstrap/////////////////
+// Import globals
+@import "_global/global.less";
+@import "_bootstrap/variables.less";
+@import "_bootstrap/mixins.less";
+@import "core/variables/variables-core.less";
+@import "core/variables/variables-custom.less";
+@import "_bootstrap/normalize.less";
+@import "_bootstrap/scaffolding.less";
+@import "_bootstrap/type.less";
+@import "_bootstrap/code.less";
+@import "_bootstrap/grid.less";
+@import "_bootstrap/forms.less";
+@import "_bootstrap/buttons.less";
+@import "_bootstrap/navs.less";
+@import "_bootstrap/navbar.less";
+@import "_bootstrap/media.less";
+@import "_bootstrap/list-group.less";
+@import "_bootstrap/panels.less";
+@import "_bootstrap/responsive-embed.less";
+@import "_bootstrap/utilities.less";
+@import "_bootstrap/responsive-utilities.less";
+/////////bootstrap/////////////////
+
+/////////core//////////////////////
+//@import './_main_full/core.less';
+@import "bootstrap-limitless/forms.less";
+@import "bootstrap-limitless/panels.less";
+/////////core/////////////////////
+
+//////////components//////////////////
+@import "core/layout/content.less";
+@import "core/layout/utils.less";
+@import "components/pages/login.less";
+@import "components/plugins/forms/extensions/validation.less";
+/////////components////////////////////
+
+
+//////////////colors///////////////////
+@import "core/colors/colors.less";
+//////////////colors//////////////////
+
+@import "animate.min.css";
+
+
+.login-wrapper {
+  overflow-y: auto;
+  min-height: 800px;
+}
+
+.has-danger {
+  border:1px solid red;
+}
+
+.invalid-cred {
+  border: 1px solid #ce1010;
+  color: white;
+  background-color: #ce1010;
+  margin: 0px 0px 5px 0px;
+  border-radius: 3px;
+}
+

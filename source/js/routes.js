@@ -1,0 +1,28 @@
+export default {
+    login:{
+        name:'login',
+        path:'/'
+    },
+    home:{
+        name:'home',
+        path:'/home',
+        childRoutes:{
+            main:{
+                name:'main',
+                path:'/home/main'
+            },
+            createPost:{
+                name:'createpost',
+                path:'/home/createpost'
+            },
+            profile:{
+                name:'profile',
+                path:'/home/profile'
+            },
+            accountSettings:{
+                name:'accountsettings',
+                path:'/home/accountsettings'
+            }
+        }
+    }
+}

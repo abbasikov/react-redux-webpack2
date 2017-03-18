@@ -1,0 +1,64 @@
+@import './icons/icomoon/styles.css';
+@import './_main_full/bootstrap.less';
+@import './_main_full/core.less';
+@import './_main_full/components.less';
+@import './_main_full/colors.less';
+
+@import "animate.css";
+
+@import "vertical_slide_menu.less";
+
+@import "feed_loader.less";
+
+.login-wrapper {
+  overflow-y: auto;
+  min-height: 800px;
+}
+
+.overlay {
+  position:fixed;
+  height:100%;
+  width:100%;
+  background:black;
+  opacity:.7;
+  z-index:2;
+  display:block;
+  top:0;
+  &.hide {
+    display: none;
+  }
+}
+
+.overlay-loading {
+  position:fixed;
+  height:100%;
+  width:100%;
+  top:45%;
+  left:45%;
+  z-index:3;
+  display:block;
+  opacity: 0.6;
+
+  &.hide {
+    display: none;
+  }
+}
+
+.blur-background {
+  filter: blur(5px) grayscale(.7);
+}
+
+@media (max-width: @screen-xs-max) and (orientation:landscape) {
+  .overlay-loading {
+    left:40%;
+  }
+}
+
+@media (max-width: @screen-xs-max) and (orientation:portrait) {
+  .overlay-loading {
+    left:35%;
+  }
+}
+
+
+

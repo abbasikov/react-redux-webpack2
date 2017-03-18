@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountSettingsContainer #render 1`] = `
+<div
+  className="page-container"
+>
+  <div
+    className="page-content"
+  >
+    <div
+      className="content-wrapper"
+    >
+      <div
+        className="panel panel-flat "
+      >
+        <div
+          className="panel-body panel-post"
+        >
+          this is account settings container
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
